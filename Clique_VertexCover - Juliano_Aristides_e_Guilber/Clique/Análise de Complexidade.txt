@@ -1,0 +1,10 @@
+Análise e determine a complexidade de tempo da função f:
+    A função f que faz a redução da instância I do problema A′ para instância f(I) do problema B′ possui uma complexidade de N².
+
+Análise e determine a complexidade de tempo da função que encontra solução para o problema B′ (Algoritmo B):
+    Essa função possui uma complexidade de 2^N + N² , sendo 2^N a complexidade da fução que gera todas as possíveis soluções e N² a complexidade da função
+    que verifica se determinado arranjo é uma solução par o problema B', onde a função que resolve o problema B' foi nomeada por nós de resolveVertex.
+
+Análise e determine a complexidade de tempo da função h:
+    A função que recebe a resposta S do problema B′ e converta para resposta do problema A′possui complexidade N + N², sendo N a complexidade da conversão dos vertices
+    solução do problema B' para o A', e n² a complexidade da redução do grafo do problema B' para o A'.
